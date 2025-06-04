@@ -155,7 +155,7 @@ if left_col.button("Run Simulation"):
         with tab1:
             st.write("")
             st.write("")
-            st.subheader("Distribution of Maximum Safe Hydrocarbon Column Heights")
+            st.subheader("Distribution of Maximum Hydrocarbon Column Heights")
             fig, ax = plt.subplots()
             ax.hist(max_heights, bins=50, edgecolor='k', alpha=0.7)
             ax.axvline(p10, color='r', linestyle='dashed', linewidth=1, label=f'P10: {p10:.2f} m')
